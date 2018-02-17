@@ -51,7 +51,7 @@ p{
 #menu{
 	font-family: "Archivo Black", sans-serif;
 	float: right;
-	width: 33.3%;
+	width: 45%%;
 	padding-top: 40px ;
 }
 
@@ -80,7 +80,7 @@ p{
 #both{
 	display: inline-block;
 	text-align: center;
-	width: auto;
+	width: 100%;
 	padding-left: 300px;
 	padding-bottom: 1px;
 	float: center;
