@@ -80,17 +80,18 @@ p{
 #both{
 	display: inline-block;
 	text-align: center;
-	width: 100%;
-	padding-left: 300px;
+	width: auto;
+	padding-left: 25%;
+	padding-right: 25%;
 	padding-bottom: 1px;
-	float: center;
+	float: right;
 }
 
 #video{
 	display: inline-block;
 	width: 33.3%;
 	padding-top: 25px;
-	padding-left: 15px;
+	padding-right: 25%;
 	float: left;
 	
 
