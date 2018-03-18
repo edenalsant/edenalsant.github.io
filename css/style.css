@@ -13,7 +13,7 @@ h1{
 	float: left;
 }
 
-img{
+#imagem{
 	width: 100%;
 	height: auto;
 }
@@ -22,17 +22,7 @@ p{
 	font-family: 'PT Sans', sans-serif;
 	text-align: justify;
 	color: #fff;
-	padding-top: 0;
-	margin-top: 0;
-
-
 }
-
-.card p {
-	margin: 10px 10px 10px 10px;
-	height: auto;
-}
-
 
 #nav{
 	position: fixed;
@@ -46,20 +36,74 @@ p{
 	padding-bottom: 10px;
 	width: 66.7%;
 	margin: auto;
+	
 }
 
 #menu{
 	font-family: "Archivo Black", sans-serif;
 	float: right;
-	width: 45%%;
+	width: 45%;
 	padding-top: 40px ;
 }
 
 #learn{
-	display: inline-block;
-	text-align: center;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-auto-rows: minmax(100px, auto);
 	width: 100%;
-	height: auto;
+}
+
+#learn p {
+	margin: 10px;
+}
+
+#foot{
+	display: grid;
+	grid-template-rows: 1fr;
+	width: 100%;
+	height: 50px;
+	background-color: #a5c6e2;
+}
+
+#foot a{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	color: #a5c6e2;
+	text-align: center;
+	padding-top: 1%;
+}
+
+
+.cardBlue{
+	background-color: #a5c6e2;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end:2;
+	text-align: center;
+}
+.cardRed{
+	background-color: #e5b1a7;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end:2;
+	text-align: center;
+}
+.cardGreen{
+	background-color: #c9e5a7;
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end:2;
+	text-align: center;
+}
+.cardYellow{
+	background-color: #f7eb7e;
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end:2;
+	text-align: center;
 }
 
 #letra p{
@@ -67,50 +111,34 @@ p{
 }
 
 #songs{
-	display: inline-block;
-	margin-top: -7px;
-	margin-left: -3px;
 	width: 100%;
 	height: auto;
 	background-color: #1e2120;
-	padding-left: 3px;
-
 }
 
-#both{
-	display: inline-block;
+.wrapper{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: minmax(100px, auto);
+	padding-top: 5%;
+	width: 100%;
+	height: auto;
 	text-align: center;
-	width: 70%;
-	padding-left: 15%;
-	padding-right: 15%;
-	padding-bottom: 1px;
-	float: right;
-	border: 1px solid #fff;
+	
 }
 
-#video{
-	display: inline-block;
+.video{
 	width: 33.3%;
+	height: auto;
+	padding-left: 25%;
+	
+}
+
+.letra{
 	padding-right: 25%;
- 	padding-top: 10%;
-	float: center;
-	border: 1px red solid;
-	
-
-}
-
-#letra{
-	display: inline-block;
-	width: 33.3%;
 	font-size: 10px;
-	margin-left: 100%;
-	padding-top: 10%;
-	border: 1px blue solid;
-
-
-	
+		
 }
-
 
 #area a{
 	color: #000;
@@ -131,35 +159,3 @@ p{
 	background-color: #000;
 	color: #fff;
 }
-
-/* classes */
-.verde{
-	background-color: #c9e5a7;
-}
-.vermelho{
-	background-color: #e5b1a7;
-}
-.azul{
-	background-color: #a5c6e2;
-}
-.amarelo{
-	background-color: #f7eb7e;
-}
-
-.card{
-	display: inline-block;
-	float: left;
-	margin-top: -3px;
-	margin-left: -3px;
-	width: 25%;
-	height: 150px;
-	padding-left: 3px;
-	border: 0px solid #fff;
-}
-
-
-
-
-
-
-
